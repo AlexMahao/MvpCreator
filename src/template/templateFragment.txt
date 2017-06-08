@@ -1,0 +1,27 @@
+package $packagename.ui;
+
+import $packagename.BaseFragment;
+import $packagename.dagger.ActivityComponent;
+import $packagename.presenter.$namePresenter;
+import $packagename.view.$nameView;
+
+/**
+ * Created by $author on $time.
+ */
+
+public class $nameFragment extends BaseFragment<$namePresenter> implements $nameView {
+    @Override
+    protected void afterCreate() {
+
+    }
+
+    @Override
+    protected void inject(ActivityComponent dagger) {
+        dagger.inject(this);
+    }
+
+    @Override
+    protected int getLayoutId() {
+        return 0;
+    }
+}

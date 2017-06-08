@@ -1,0 +1,16 @@
+package $packagename.presenter;
+
+import $packagename.view.$nameView;
+
+import javax.inject.Inject;
+
+/**
+ * Created by $author on $time.
+ */
+
+public class $namePresenter extends BasePresenter<$nameView> {
+
+    @Inject
+    public $namePresenter() {
+    }
+}

@@ -1,5 +1,5 @@
 
-将删除 .gitignore
-将删除 .idea/inspectionProfiles/
-将删除 .idea/workspace.xml
-将删除 out/
+.idea/
+out/
+MvpCreator.iml
+MvpCreator.jar

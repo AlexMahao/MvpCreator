@@ -1,0 +1,27 @@
+package $packagename.ui;
+
+import $packagename.BaseActivity;
+import $packagename.dagger.ActivityComponent;
+import $packagename.presenter.$namePresenter;
+import $packagename.view.$nameView;
+
+/**
+ * Created by #author on $time.
+ */
+
+public class $nameActivity extends BaseActivity<$namePresenter> implements $nameView {
+    @Override
+    protected void afterCreate() {
+
+    }
+
+    @Override
+    protected void inject(ActivityComponent dagger) {
+        dagger.inject(this);
+    }
+
+    @Override
+    public int getLayoutId() {
+        return 0;
+    }
+}
